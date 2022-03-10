@@ -1,0 +1,8 @@
+.idea
+.gradle
+build
+*.jar
+!gradle-wrapper.jar
+.gradletasknamecache
+*.iml
+src/main/java/com/example/map223rebecadomocosmaragheorghe/utils/constants

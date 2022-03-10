@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<fx:root fx:id="mainPane" prefHeight="60.0" prefWidth="620.0" style="-fx-content-display: right; -fx-background-color: #fefed5; -fx-padding: 0,0,0,1;" type="AnchorPane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane fx:id="paneRoot" layoutX="533.0" layoutY="2.0" prefHeight="68.0" prefWidth="86.0" style="-fx-content-display: right; -fx-background-radius: 30px; -fx-border-radius: 30px; -fx-padding: 5,10,5,10; -fx-background-color: linear-gradient(to left, rgba(56, 79, 37, 0.39), rgba(106, 149, 69, 0.38), rgba(56, 79, 37, 0.39)); -fx-border-width: 2px;" AnchorPane.bottomAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="timeLabel" layoutX="31.0" layoutY="40.0" prefHeight="15.0" prefWidth="35.0" text="time" textFill="#737070" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="5.0">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <TextFlow fx:id="textFlow" layoutX="20.0" layoutY="20.0" prefHeight="0.0" prefWidth="1.0" />
+            <Label fx:id="messageLabel" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="16.0" layoutY="12.0" stylesheets="@../../../css/labelMyMessage.css" text="Label" wrapText="true" />
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </AnchorPane>
+   </children>
+   <padding>
+      <Insets left="10.0" />
+   </padding>
+</fx:root>

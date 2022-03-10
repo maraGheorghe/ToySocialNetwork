@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="groupPane" prefHeight="500.0" prefWidth="650.0" style="-fx-background-color: #fefed5;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.map223rebecadomocosmaragheorghe.controller.GroupController">
+   <children>
+      <Label layoutX="20.0" layoutY="5.0" prefHeight="23.0" prefWidth="279.0" stylesheets="@../../../css/labelGreen.css" text="Please select participants for the group:" textFill="#384f25" />
+      <ListView fx:id="profileList" layoutX="47.0" layoutY="48.0" prefHeight="406.0" prefWidth="555.0" style="-fx-background-color: #fefed5;" stylesheets="@../../../css/listViews.css" />
+      <Button fx:id="nextButton" layoutX="605.0" layoutY="465.0" mnemonicParsing="false" onAction="#handleNextButton" stylesheets="@../../../css/superTransparentButton.css">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/nextt.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="cancelButton" layoutX="2.0" layoutY="472.0" mnemonicParsing="false" onAction="#handleCancelButton" stylesheets="@../../../css/superTransparentButton.css">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/cancel.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Label fx:id="invalidLabel" layoutX="371.0" layoutY="473.0" prefHeight="18.0" prefWidth="235.0" text="You must select at least two participants." textFill="#cf0a0a" visible="false" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,4 @@
+.label {
+    -fx-font-weight: bold;
+    -fx-text-fill: linear-gradient(to right, #8f5a3d, #c59378,  #8f5a3d);
+}

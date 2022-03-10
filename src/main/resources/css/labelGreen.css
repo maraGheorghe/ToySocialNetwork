@@ -1,0 +1,4 @@
+.label {
+    -fx-font-weight: bold;
+    -fx-text-fill: linear-gradient(to left, rgba(56, 79, 37, 0.87), rgb(106, 149, 69), rgba(56, 79, 37, 0.87));
+}

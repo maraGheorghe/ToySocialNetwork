@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="500.0" prefWidth="650.0" style="-fx-background-color: #fefed5;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.map223rebecadomocosmaragheorghe.controller.ChatListController">
+   <children>
+      <Button fx:id="newGroupButton" layoutX="566.0" layoutY="8.0" mnemonicParsing="false" onAction="#handleNewGroupButton" stylesheets="@../../../css/superTransparentButton.css" textFill="#384f25">
+         <graphic>
+            <ImageView fitHeight="46.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/groupChat.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <ListView fx:id="chatList" layoutX="27.0" layoutY="60.0" onMouseClicked="#handleOpenChat" prefHeight="424.0" prefWidth="600.0" style="-fx-background-color: #fefed5;" stylesheets="@../../../css/listViewNoSelection.css" />
+      <Label layoutX="20.0" layoutY="5.0" stylesheets="@../../../css/labelGreen.css" text="Chats">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="searchBar" layoutX="224.0" layoutY="16.0" prefHeight="36.0" prefWidth="190.0" promptText="search for a conversation here..." stylesheets="@../../../css/textFields.css" />
+      <ListView fx:id="listViewChats" fixedCellSize="50.0" layoutX="202.0" layoutY="55.0" onMouseClicked="#handleOpenOrCreateChat" prefHeight="110.0" prefWidth="240.0" stylesheets="@../../../css/listViewSearch.css" visible="false" />
+   </children>
+</AnchorPane>

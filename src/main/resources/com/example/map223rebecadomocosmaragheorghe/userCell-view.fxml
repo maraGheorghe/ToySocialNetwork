@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="hbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="217.0" style="-fx-background-color: linear-gradient(to left, rgb(250, 250, 177), rgb(254, 254, 213), rgb(250, 250, 177));;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Circle fx:id="profilePicture" fill="#fefed5" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="label" alignment="CENTER" prefHeight="40.0" prefWidth="178.0" stylesheets="@../../../css/labelBrown.css" text="Label" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font></Label>
+   </children>
+</HBox>

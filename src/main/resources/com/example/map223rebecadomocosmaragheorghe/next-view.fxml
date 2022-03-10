@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="configurationPane" prefHeight="500.0" prefWidth="650.0" style="-fx-background-color: #fefed5;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.map223rebecadomocosmaragheorghe.controller.ConfigurationController">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="200.0" layoutX="47.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="chooseButton" layoutX="297.0" layoutY="339.0" mnemonicParsing="false" onAction="#handleChooseButton" stylesheets="@../../../css/superTransparentButton.css">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/add-image.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <TextField fx:id="nameField" layoutX="376.0" layoutY="165.0" prefHeight="34.0" prefWidth="179.0" promptText="enter a group name" stylesheets="@../../../css/textFields.css" />
+      <Button fx:id="finishButton" layoutX="587.0" layoutY="461.0" mnemonicParsing="false" onAction="#handleFinishButton" prefHeight="28.0" prefWidth="62.0" stylesheets="@../../../css/superTransparentButton.css">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/finish.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Rectangle fx:id="rectangleView" arcHeight="5.0" arcWidth="5.0" fill="#fefed5" height="221.0" layoutX="47.0" layoutY="127.0" stroke="BLACK" strokeType="INSIDE" width="259.0" />
+      <Label layoutX="374.0" layoutY="127.0" stylesheets="@../../../css/labelBrown.css" text="Please enter a group name:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

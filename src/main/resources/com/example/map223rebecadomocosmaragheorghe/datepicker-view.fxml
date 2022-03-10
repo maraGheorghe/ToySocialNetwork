@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="326.0" prefWidth="400.0" style="-fx-background-color: #fefed5;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.map223rebecadomocosmaragheorghe.controller.DatePickerController">
+   <children>
+      <DatePicker fx:id="startPicker" layoutX="13.0" layoutY="58.0" prefHeight="25.0" prefWidth="145.0" stylesheets="@../../../css/datePicker.css" />
+      <DatePicker fx:id="endPicker" layoutX="242.0" layoutY="58.0" prefHeight="25.0" prefWidth="145.0" stylesheets="@../../../css/datePicker.css" />
+      <Text fill="#384f25" layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please choose a start date:" />
+      <Text fill="#384f25" layoutX="242.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please choose an end date:" />
+      <Label fx:id="errorLabel" layoutX="72.0" layoutY="300.0" prefHeight="17.0" prefWidth="257.0" text="error" textFill="#e40707" visible="false" />
+      <Button fx:id="closeButton" layoutX="356.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleCloseButton" stylesheets="@../../../css/superTransparentButton.css">
+         <graphic>
+            <ImageView fitHeight="28.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/nextt.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TextField fx:id="searchBar" layoutX="126.0" layoutY="138.0" prefHeight="25.0" prefWidth="145.0" />
+      <Label fx:id="selectAFriend" layoutX="126.0" layoutY="111.0" text="Select a friend:" textFill="#384f25" />
+      <ListView fx:id="friendsList" layoutX="84.0" layoutY="163.0" prefHeight="125.0" prefWidth="240.0" stylesheets="@../../../css/listViewSmallUser.css" />
+   </children>
+</AnchorPane>

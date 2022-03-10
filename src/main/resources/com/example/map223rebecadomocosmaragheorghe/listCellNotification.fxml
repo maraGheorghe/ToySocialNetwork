@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="50.0" prefWidth="268.0" style="-fx-background-color: linear-gradient(to left, rgb(250, 250, 177), rgb(254, 254, 213), rgb(250, 250, 177));;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="labelDescription" alignment="CENTER" layoutX="45.0" layoutY="5.0" prefHeight="40.0" prefWidth="226.0" stylesheets="@../../../css/labelGreen.css" text="notification&#10;here&#10;" textAlignment="CENTER" />
+      <ImageView fx:id="imageView" fitHeight="40.0" fitWidth="40.0" layoutX="5.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="70.0" prefWidth="530.0" style="-fx-background-color: #fefed5;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Circle fx:id="profilePicture" fill="#fefed5" layoutX="50.0" layoutY="35.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="infoLabel" alignment="CENTER" layoutX="95.0" layoutY="5.0" prefHeight="60.0" prefWidth="419.0" stylesheets="@../../../css/labelGreen.css" text="Label" wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

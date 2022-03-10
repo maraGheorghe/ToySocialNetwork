@@ -1,0 +1,7 @@
+.hyperlink {
+    -fx-text-fill: linear-gradient(to left, rgb(254, 254, 213), rgba(254, 254, 213, 0.59), rgb(254, 254, 213));
+}
+
+.hyperlink:hover {
+    -fx-text-fill: linear-gradient(to left, rgb(56, 79, 37), rgb(106, 149, 69), rgb(56, 79, 37));
+}

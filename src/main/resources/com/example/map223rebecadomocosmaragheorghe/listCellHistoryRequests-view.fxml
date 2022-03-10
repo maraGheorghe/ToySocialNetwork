@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Circle?>
+
+<HBox fx:id="hBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="540.0" style="-fx-background-color: #FEFED566;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="40.0" prefWidth="40.0">
+         <children>
+            <Circle fx:id="profilePictureCircle" fill="#fefed5" layoutX="20.0" layoutY="20.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+      <Label fx:id="labelText" prefHeight="40.0" prefWidth="440.0" stylesheets="@../../../css/labelBrown.css" />
+      <Label fx:id="labelStatus" cacheShape="false" centerShape="false" contentDisplay="CENTER" focusTraversable="false" layoutX="50.0" layoutY="10.0" prefHeight="40.0" prefWidth="60.0" scaleShape="false" stylesheets="@../../../css/labelGreen.css" textAlignment="CENTER" />
+   </children>
+</HBox>

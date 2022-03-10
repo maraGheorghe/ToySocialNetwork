@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="notificationsPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: linear-gradient(to left, rgb(250, 250, 177), rgb(254, 254, 213), rgb(250, 250, 177));" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.map223rebecadomocosmaragheorghe.controller.NotificationController">
+   <children>
+      <ListView fx:id="notificationsListView" prefHeight="400.0" prefWidth="300.0" stylesheets="@../../../css/notificationListView.css" />
+   </children>
+</Pane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="650.0" style="-fx-background-color: #fefed5;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.map223rebecadomocosmaragheorghe.controller.EventsController">
+   <children>
+      <Label layoutX="20.0" layoutY="5.0" stylesheets="@../../../css/labelGreen.css" text="Events">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <ListView fx:id="listView" fixedCellSize="130.0" layoutX="12.0" layoutY="55.0" onMouseClicked="#handleShowDetails" prefHeight="400.0" prefWidth="625.0" style="-fx-padding: 0;" stylesheets="@../../../css/listViewEvents.css" />
+      <Button fx:id="addEventButton" layoutX="591.0" layoutY="12.0" mnemonicParsing="false" onAction="#handleAddEventButton" stylesheets="@../../../css/superTransparentButton.css">
+         <graphic>
+            <ImageView fitHeight="33.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/addEvent.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="previousButton" layoutX="15.0" layoutY="460.0" mnemonicParsing="false" onAction="#handlePreviousButton" stylesheets="@../../../css/superTransparentButton.css">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+               <image>
+                  <Image url="@../../../images/previ.jpeg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="nextButton" layoutX="600.0" layoutY="460.0" mnemonicParsing="false" onAction="#handleNextButton" stylesheets="@../../../css/superTransparentButton.css">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/next.jpeg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label fx:id="pageLabel" layoutX="310.0" layoutY="470.0" stylesheets="@../../../css/labelGreen.css" text="page">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="32.0" fitWidth="30.0" layoutX="387.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</Pane>

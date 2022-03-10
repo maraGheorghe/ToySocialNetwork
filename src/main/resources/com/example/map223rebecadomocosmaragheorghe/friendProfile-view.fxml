@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="friendProfilePane" style="-fx-background-color: #fefed5;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.map223rebecadomocosmaragheorghe.controller.FriendsProfileController">
+   <children>
+      <AnchorPane prefHeight="235.0" prefWidth="214.0" style="-fx-background-color: linear-gradient(to left, rgb(250, 250, 177), rgb(254, 254, 213), rgb(250, 250, 177)); -fx-border-width: 2px; -fx-border-color: #384F25DD; -fx-border-radius: 20px; -fx-background-radius: 20px;" stylesheets="@../../../css/panes.css">
+         <children>
+            <Line endX="198.5149383544922" endY="-7.62939453125E-6" layoutX="-198.0" layoutY="52.0" startX="410.3332824707031" stroke="#384f25" strokeWidth="1.5" AnchorPane.leftAnchor="-0.54571533203125" />
+            <Circle fx:id="circleProfilePicture" fill="DODGERBLUE" layoutX="106.0" layoutY="52.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" style="-fx-blend-mode: SRC_OVER;" />
+            <Label fx:id="nameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="18.0" layoutY="111.0" prefHeight="20.0" prefWidth="178.0" text="Ion Popescu" textAlignment="CENTER" textFill="#384f25">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="emailLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="18.0" layoutY="131.0" prefHeight="17.0" prefWidth="178.0" text="ion.popescu@mail.com" textAlignment="CENTER" textFill="#384f25" />
+            <Label fx:id="friendsLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="167.0" prefHeight="27.0" prefWidth="87.0" text="1K" textAlignment="CENTER" textFill="#374d24a0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Line endX="12.5" endY="37.0" layoutX="94.0" layoutY="166.0" startX="12.500007629394531" startY="-9.0" stroke="#374d24a1" strokeWidth="1.5" />
+            <Label fx:id="eventsLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="129.0" layoutY="167.0" prefHeight="27.0" prefWidth="61.0" text="100" textAlignment="CENTER" textFill="#374d24a0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="204.0" text="squirrels" textFill="#374d24a1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="140.0" layoutY="204.0" text="events" textFill="#374d24a0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

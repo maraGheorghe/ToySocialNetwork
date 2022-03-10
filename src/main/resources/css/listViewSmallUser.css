@@ -1,0 +1,37 @@
+.list-cell {
+    -fx-text-fill: linear-gradient(to left, rgba(56, 79, 37, 0.87), rgb(106, 149, 69), rgba(56, 79, 37, 0.87));
+    -fx-text-size: 10px;
+    -fx-font-weight: bold;
+    -fx-padding: 0px;
+    -fx-text-alignment: center;
+}
+.list-view {
+    -fx-background-color: transparent;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: linear-gradient(to left, rgb(246, 246, 154), rgb(254, 254, 213), rgb(246, 246, 154));
+}
+
+.list-cell {
+    -fx-background-color: linear-gradient(to left, rgb(250, 250, 177), rgb(254, 254, 213), rgb(250, 250, 177));
+}
+
+.list-view .virtual-flow .scroll-bar:vertical,
+.list-view .virtual-flow .scroll-bar:vertical .track,
+.list-view .virtual-flow .scroll-bar:vertical .track-background {
+    -fx-background-color: transparent;
+}
+
+.list-view .virtual-flow .scroll-bar .increment-button,
+.list-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+.list-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  linear-gradient(to bottom, rgba(103, 243, 3, 0.2), rgba(105, 157, 54, 0.16));
+}
+.list-cell:filled:selected {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0 ;
+}

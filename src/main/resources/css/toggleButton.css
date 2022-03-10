@@ -1,0 +1,17 @@
+.toggle-button {
+    -fx-background-radius:10px;
+    -fx-background-color: linear-gradient(to left, rgba(183, 122, 89, 0.2), rgba(173, 89, 31, 0.45));
+    -fx-text-fill: rgba(56, 79, 37, 0.95);
+    -fx-effect: dropshadow( gaussian , rgba(177, 122, 80, 0.67), 0,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+.toggle-button:selected {
+    -fx-background-color: linear-gradient(to right, rgba(183, 122, 89, 0.2), rgba(173, 89, 31, 0.45));
+    -fx-background-insets: 0 0 -1 0, 0, 1, 1;
+}
+
+.toggle-button:selected:focused {
+    -fx-background-color: linear-gradient(to right, rgba(183, 122, 89, 0.18), rgba(173, 89, 31, 0.45));
+}

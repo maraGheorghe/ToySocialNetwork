@@ -1,0 +1,17 @@
+.button {
+    -fx-background-radius: 10px;
+    -fx-background-color: linear-gradient(to bottom, rgba(254, 254, 213, 0.69), rgba(254, 254, 213, 0.16));
+}
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, rgb(177, 122, 80), rgba(254, 254, 213, 0.16));
+}
+.button:pressed {
+    -fx-background-color: linear-gradient(to top, rgba(97, 225, 6, 0.19), rgba(56, 79, 37, 0.29));
+}
+.button {
+    -fx-text-fill: rgba(56, 79, 37, 0.95);
+    -fx-effect: dropshadow( gaussian , rgba(177, 122, 80, 0.78), 0,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-alignment: center-right;
+}

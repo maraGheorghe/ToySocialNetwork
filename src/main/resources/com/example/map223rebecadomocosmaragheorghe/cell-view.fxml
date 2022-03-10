@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<fx:root fx:id="paneRoot" prefHeight="65.0" prefWidth="580.0" style="-fx-background-color: #fefed5;" type="AnchorPane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="chatNameField" layoutX="60.0" layoutY="3.0" prefHeight="34.0" prefWidth="275.0" stylesheets="@../../../css/labelMessages.css" text="Chat Name" wrapText="true">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Circle fx:id="chatPhoto" fill="DODGERBLUE" layoutX="31.0" layoutY="33.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="messageField" layoutX="69.0" layoutY="42.0" prefHeight="15.0" prefWidth="503.0" stylesheets="@../../../css/labelGreen.css" text="last message sent ..." wrapText="true" />
+      <Label fx:id="dateField" layoutX="421.0" layoutY="3.0" prefHeight="27.0" prefWidth="149.0" stylesheets="@../../../css/labelGreen.css" text="date" />
+   </children>
+</fx:root>

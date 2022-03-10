@@ -1,0 +1,10 @@
+.text-field {
+    -fx-background-color: #c59378,  linear-gradient(to right, #8f5a3d, #c59378,  #8f5a3d);
+    -fx-text-fill: #fefed5;
+    -fx-prompt-text-fill: rgba(254, 254, 213, 0.69);
+    -fx-background-insets: 0, 0 0 1.5 0 ;
+    -fx-background-radius: 0 ;
+}
+.text-field:focused {
+    -fx-background-color: #8f5a3d,  linear-gradient(to right, #8f5a3d, #c59378,  #8f5a3d) ;
+}

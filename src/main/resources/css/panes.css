@@ -1,0 +1,6 @@
+.vbox {
+    -fx-background-color: linear-gradient(to bottom, rgba(183, 122, 89, 0.25), rgba(173, 89, 31, 0.27));
+    -fx-border-width: 2px;
+    -fx-padding: 10;
+    -fx-spacing: 8;
+}
